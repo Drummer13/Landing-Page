@@ -1,0 +1,60 @@
+.header {
+    background-color: #1F2937;
+    padding: 20px 10% 5% 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.links, .secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.up-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    margin-left: 15px;
+}
+
+img {
+    width: 600px;
+    height: 300px;
+    background-color: grey;
+   }
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.left-header {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    height: 300px;
+}
+
+button {
+    background-color: #3882F6;
+    width: 120px;
+    height: 35px;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    margin-top: 8px;
+}
