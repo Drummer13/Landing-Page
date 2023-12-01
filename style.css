@@ -48,6 +48,7 @@ a {
     display: flex;
     justify-content: center;
     margin-top: 90px;
+    gap: 15px;
 }
 
 .left-header {
