@@ -42,6 +42,9 @@ a {
     background-color: grey;
     display: flex;
     flex-shrink: 2;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
    }
 
 .main-header {
@@ -87,6 +90,7 @@ button {
     justify-content: center;
     gap: 40px;
     margin-bottom: 80px;
+    flex-wrap: wrap;
 }
 
 .empty {
@@ -115,10 +119,11 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 100px ;
+    padding: 100px;
 }
 
 .testimonial {
+    display: flex;
     width: 760px;
     font-size: 36px;
     font-style: italic;
@@ -136,8 +141,10 @@ button {
     background-color: #3882F6;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 40px 80px ;
     border-radius: 10px;
+    height: 150px;
 }
 
 .action {
