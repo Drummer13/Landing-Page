@@ -36,10 +36,12 @@ a {
     margin-left: 15px;
 }
 
-img {
+.right-header {
     width: 600px;
     height: 300px;
     background-color: grey;
+    display: flex;
+    flex-shrink: 2;
    }
 
 .main-header {
